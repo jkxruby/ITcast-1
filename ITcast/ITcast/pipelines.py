@@ -7,5 +7,5 @@
 
 
 class ItcastPipeline(object):
-    def process_item(self, item, spider):
+    def process_item(self, item, spider):   # 上面的类方法，帮我们处理每一个item
         return item

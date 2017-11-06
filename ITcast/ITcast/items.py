@@ -8,7 +8,12 @@
 import scrapy
 
 
-class ItcastItem(scrapy.Item):
+class ItcastItem(scrapy.Item):   # 调用存取字段
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    # 老师姓名
+    name = scrapy.Field()
+    # 老师职称
+    title = scrapy.Field()
+    # 老师信息
+    info = scrapy.Field()
